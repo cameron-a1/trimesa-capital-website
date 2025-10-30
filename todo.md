@@ -50,3 +50,11 @@
 - [x] Revise all content to emphasize Africa emerging markets expertise
 - [x] Update positioning as financial services firm specializing in Africa
 - [x] Fix ref forwarding error in InvestorTypeSelector dropdown
+
+## Content Refocus - Impact & Projects
+- [x] Remove PESO fund technical details from homepage
+- [x] Add showcase of cool African infrastructure projects
+- [x] Highlight community impact stories
+- [x] Transform PESO Fund page into Projects/Impact page
+- [x] Add visual project highlights with real examples
+- [x] Emphasize tangible outcomes and community benefits

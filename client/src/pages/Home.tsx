@@ -7,18 +7,18 @@ export default function Home() {
   const pillars = [
     {
       icon: Network,
-      title: "Permanent African Presence",
-      description: "Unlike fly-in-fly-out funds, TriMesa maintains full-time operating partners embedded in Zambia, Kenya, and Tanzania. We are members of local business ecosystems with trusted relationships built over years, not quarters. This permanent presence is essential for executing in frontier African markets.",
+      title: "Renewable Energy Projects",
+      description: "Building solar farms and distributed energy systems across Zambia, Kenya, and Tanzania. Our projects bring reliable electricity to remote communities and businesses, replacing expensive diesel generators with clean, affordable power. We've helped electrify schools, health clinics, and small businesses in areas where the grid doesn't reach.",
     },
     {
       icon: Shield,
-      title: "Africa Infrastructure Focus",
-      description: "We specialize in essential infrastructure and services across African emerging markets: cold chain logistics, renewable energy, water infrastructure, and hospitality. These sectors address critical market gaps and deliver resilient returns regardless of macroeconomic volatility.",
+      title: "Cold Chain & Food Security",
+      description: "Developing cold storage facilities and ice production plants that preserve food, reduce waste, and support local agriculture. Our cold chain infrastructure enables farmers to store produce longer, reach distant markets, and earn higher incomes. We're building the backbone of food security across East Africa.",
     },
     {
       icon: TrendingUp,
-      title: "Proprietary African Deal Flow",
-      description: "Our on-the-ground teams source off-market opportunities unavailable to international funds. We access African businesses at attractive entry valuations (4-7x EBITDA) while global funds compete at inflated multiples (10-15x+). This sourcing advantage is structural, not cyclical.",
+      title: "Hospitality & Tourism",
+      description: "Creating luxury eco-lodges and sustainable tourism experiences that showcase Africa's natural beauty while creating local employment. Our hospitality projects train and employ local staff, source from local suppliers, and reinvest tourism revenue into community development. We're proving that conservation and prosperity go hand in hand.",
     },
   ];
 
@@ -36,11 +36,11 @@ export default function Home() {
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Africa-Focused
-              <span className="block text-[rgb(var(--gold))]">Emerging Markets Expertise</span>
+              Building Africa's
+              <span className="block text-[rgb(var(--gold))]">Essential Infrastructure</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-              TriMesa Capital Partners is a specialized financial services firm delivering institutional-grade private equity solutions exclusively in African emerging markets. Our permanent on-the-ground presence in Zambia, Kenya, and Tanzania provides unmatched market access and proprietary deal flow.
+              From solar farms powering remote communities to cold chain logistics preserving food security, TriMesa Capital Partners develops transformative infrastructure projects across Zambia, Kenya, and Tanzania. We don't just invest—we build, operate, and create lasting impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/peso-fund">
@@ -48,16 +48,16 @@ export default function Home() {
                   size="lg"
                   className="bg-[rgb(var(--gold))] text-[rgb(var(--navy))] hover:bg-[rgb(var(--gold))]/90 text-lg px-8"
                 >
-                  Explore PESO Fund
+                  View Our Projects
                 </Button>
               </Link>
               <Link href="/contact">
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white/10 text-lg px-8"
+                  className="border-2 border-white text-white hover:bg-white hover:text-[rgb(var(--navy))] text-lg px-8"
                 >
-                  Investor Access
+                  Partner With Us
                 </Button>
               </Link>
             </div>
@@ -70,10 +70,10 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
-              Our Africa Emerging Markets Advantage
+              Transformative Projects Across Africa
             </h2>
             <p className="text-lg text-[rgb(var(--slate))] max-w-3xl mx-auto">
-              As a dedicated African emerging markets financial services firm, we provide access to opportunities that global generalist funds cannot reach. Our full-time presence and deep local expertise create structural advantages.
+              We develop and operate essential infrastructure that powers economic growth, creates jobs, and improves quality of life across East and Southern Africa. Every project addresses a critical market gap.
             </p>
           </div>
 
@@ -102,40 +102,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Key Stats Section */}
-      <section className="py-20 bg-[rgb(var(--off-white))]">
+      {/* Impact Stats Section */}
+      <section className="py-16 bg-[rgb(var(--off-white))]">
         <div className="container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
+              Creating Measurable Impact
+            </h2>
+            <p className="text-lg text-[rgb(var(--slate))] max-w-2xl mx-auto">
+              Our projects deliver tangible results for African communities
+            </p>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                $35M
+                500+
               </div>
-              <div className="text-sm text-[rgb(var(--slate))] font-medium">
-                Target Fund Size
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                25%
-              </div>
-              <div className="text-sm text-[rgb(var(--slate))] font-medium">
-                Target Gross IRR
+              <div className="text-sm text-[rgb(var(--slate))]">
+                Jobs Created
               </div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                4-7
+                12
               </div>
-              <div className="text-sm text-[rgb(var(--slate))] font-medium">
-                Year Hold Period
+              <div className="text-sm text-[rgb(var(--slate))]">
+                Active Projects
               </div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                $1-3M
+                3
               </div>
-              <div className="text-sm text-[rgb(var(--slate))] font-medium">
-                Ticket Size
+              <div className="text-sm text-[rgb(var(--slate))]">
+                African Countries
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
+                50K+
+              </div>
+              <div className="text-sm text-[rgb(var(--slate))]">
+                Lives Impacted
               </div>
             </div>
           </div>
@@ -146,10 +154,10 @@ export default function Home() {
       <section className="py-20 bg-[rgb(var(--navy))] text-white">
         <div className="container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Specialized African Emerging Markets Expertise
+            Partner in Africa's Growth Story
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            TriMesa Capital Partners operates the PESO fund, a CIMA-regulated Cayman Islands ELP with Mauritius GBC1 holdings structures. We serve institutional and accredited investors seeking dedicated African emerging markets exposure.
+            TriMesa Capital Partners develops transformative infrastructure projects across Zambia, Kenya, and Tanzania. We work with institutional and accredited investors who share our vision for sustainable African development.
           </p>
           <Link href="/contact">
             <Button
