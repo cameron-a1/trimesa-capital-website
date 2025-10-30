@@ -39,3 +39,7 @@
 
 ## Documentation
 - [x] Create comprehensive README.md with setup and deploy instructions
+
+## Recent Changes
+- [x] Replace chart image with new TriMesa logo on homepage hero
+- [x] Update to use the final TriMesa logo (three pillars version)
