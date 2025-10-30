@@ -44,3 +44,9 @@
 - [x] Replace chart image with new TriMesa logo on homepage hero
 - [x] Update to use the final TriMesa logo (three pillars version)
 - [x] Remove logo background to make it blend with page backgrounds
+
+## New Feature Requests
+- [x] Add institutional and retail investor buttons (Apollo-style)
+- [x] Revise all content to emphasize Africa emerging markets expertise
+- [x] Update positioning as financial services firm specializing in Africa
+- [x] Fix ref forwarding error in InvestorTypeSelector dropdown

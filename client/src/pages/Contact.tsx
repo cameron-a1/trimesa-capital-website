@@ -56,7 +56,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-300">
-            For institutional and accredited investors
+            Africa Emerging Markets Expertise — Institutional & Accredited Investors
           </p>
         </div>
       </section>
@@ -68,10 +68,10 @@ export default function Contact() {
             {/* Form */}
             <div>
               <h2 className="text-3xl font-bold text-[rgb(var(--navy))] mb-6">
-                Institutional Inquiry
+                Investor Inquiry
               </h2>
               <p className="text-[rgb(var(--slate))] mb-8">
-                PESO is open to institutional and accredited investors only. Please complete the form below and our team will respond within 2 business days.
+                TriMesa Capital Partners serves institutional and accredited investors seeking dedicated African emerging markets exposure. Our team will respond to qualified inquiries within 2 business days.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">

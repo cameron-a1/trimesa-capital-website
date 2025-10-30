@@ -61,10 +61,10 @@ export default function PesoFund() {
       <section className="bg-gradient-to-br from-[rgb(var(--navy))] to-[rgb(var(--slate))] text-white py-16">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Private Emerging Special Opportunities I
+            PESO Fund
           </h1>
           <p className="text-xl text-gray-300">
-            PESO Fund
+            Private Emerging Special Opportunities I — Dedicated African Emerging Markets Private Equity
           </p>
         </div>
       </section>
@@ -73,17 +73,17 @@ export default function PesoFund() {
       <section className="py-16 bg-white">
         <div className="container">
           <h2 className="text-3xl font-bold text-[rgb(var(--navy))] mb-6">
-            PESO Overview
+            Africa-Dedicated Private Equity Strategy
           </h2>
           <div className="prose max-w-none text-[rgb(var(--slate))] leading-relaxed space-y-4">
             <p>
-              PESO is a <strong>Cayman Islands Exempted Limited Partnership (ELP)</strong>, CIMA-regulated, with holdings via <strong>Mauritius GBC1 (TCP Holdings Limited)</strong> and Mauritius SPVs (HoldCo) for underlying investments. The fund is registered and supervised in accordance with CIMA rules, ensuring institutional-grade governance and regulatory compliance.
+              TriMesa Capital Partners operates PESO as a <strong>specialized African emerging markets financial services platform</strong>. The fund is structured as a Cayman Islands Exempted Limited Partnership (ELP), CIMA-regulated, with holdings via Mauritius GBC1 (TCP Holdings Limited) and Mauritius SPVs for underlying investments. This structure provides institutional-grade governance while optimizing for African market execution.
             </p>
             <p>
-              The fund's objective is to <strong>generate capital appreciation and income</strong> through equity investments in sustainable African businesses. PESO creates real social impact by addressing missing markets and developing market leadership in niche markets whilst vertically integrating suppliers and customers.
+              PESO generates capital appreciation and income through equity investments in sustainable African businesses addressing critical infrastructure gaps. Our focus is exclusively on <strong>Zambia, Kenya, Tanzania, and strategic DP World Economic Zones</strong>—markets where permanent local presence and deep relationships are prerequisites for success. We do not compete with generalist emerging markets funds; we operate where they cannot.
             </p>
             <p>
-              PESO acquires minority or majority stakes in scalable, impact-focused SMEs through Mauritius SPVs. The fund uses proprietary deal flow to access off-market companies and makes targeted investments to help businesses gain market share and build market leadership in their niches. With a <strong>ticket size of USD 1–3 million</strong> per transaction and a <strong>target hold period of 4–7 years</strong>, PESO is positioned to capture upstream supply chains in growing economies.
+              With full-time operating partners embedded on the ground, TriMesa sources proprietary deal flow unavailable to international funds. We acquire minority or majority stakes in scalable African SMEs at <strong>ticket sizes of USD 1–3 million</strong> and target hold periods of <strong>4–7 years</strong>. Our permanent African presence is not a cost center—it is our competitive advantage and the foundation of our sourcing, execution, and value creation capabilities.
             </p>
           </div>
         </div>
@@ -184,18 +184,18 @@ export default function PesoFund() {
       <section className="py-16 bg-white">
         <div className="container">
           <h2 className="text-3xl font-bold text-[rgb(var(--navy))] mb-8">
-            Why PESO
+            The TriMesa Africa Advantage
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-2 hover:border-[rgb(var(--gold))] transition-colors">
               <CardHeader>
                 <CardTitle className="text-[rgb(var(--navy))]">
-                  Goes Where Others Won't
+                  Frontier Africa Focus
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-[rgb(var(--slate))]">
-                  Most African PE funds concentrate capital in South Africa, Nigeria, and Egypt. PESO targets underserved markets in Zambia, Tanzania, Kenya, and DP World Economic Zones—markets that require permanent presence and operational execution.
+                  While most African PE funds concentrate in South Africa, Nigeria, and Egypt, TriMesa specializes in frontier markets: Zambia, Tanzania, Kenya, and DP World Economic Zones. These underserved African markets require permanent presence, local expertise, and operational execution that generalist funds cannot provide.
                 </p>
               </CardContent>
             </Card>
@@ -203,12 +203,12 @@ export default function PesoFund() {
             <Card className="border-2 hover:border-[rgb(var(--gold))] transition-colors">
               <CardHeader>
                 <CardTitle className="text-[rgb(var(--navy))]">
-                  Recession-Resistant Returns
+                  Africa Infrastructure Expertise
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-[rgb(var(--slate))]">
-                  Focus on necessity goods and services where demand persists regardless of economic cycles: cold storage, ice production, solar power, and infrastructure serving essential business operations.
+                  TriMesa focuses on essential African infrastructure: cold chain logistics, renewable energy, water systems, and hospitality. These sectors address critical market gaps across African emerging markets and deliver resilient returns regardless of macroeconomic volatility.
                 </p>
               </CardContent>
             </Card>
@@ -216,12 +216,12 @@ export default function PesoFund() {
             <Card className="border-2 hover:border-[rgb(var(--gold))] transition-colors">
               <CardHeader>
                 <CardTitle className="text-[rgb(var(--navy))]">
-                  Embedded Governance
+                  Institutional Governance
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-[rgb(var(--slate))]">
-                  Deal Committees (SDC/NDC) and Investment Committee with supermajority thresholds. LPACC oversight, conflict protocols, and Key Person provisions ensure institutional-grade governance.
+                  TriMesa brings institutional-grade governance to African emerging markets. Deal Committees (SDC/NDC), Investment Committee with supermajority thresholds, LPACC oversight, conflict protocols, and Key Person provisions ensure disciplined execution.
                 </p>
               </CardContent>
             </Card>

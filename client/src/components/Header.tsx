@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import InvestorTypeSelector from "@/components/InvestorTypeSelector";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -27,7 +28,8 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
+          <InvestorTypeSelector />
           {navigation.map((item) => (
             <Link
               key={item.name}

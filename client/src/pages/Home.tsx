@@ -7,18 +7,18 @@ export default function Home() {
   const pillars = [
     {
       icon: Network,
-      title: "Goes Where Others Won't",
-      description: "Engineered for greenfield institutional development in underserved growth markets: Zambia, Tanzania, Kenya, and strategic DP World Economic Zones. These markets require permanent presence, trusted relationships, and operational execution.",
+      title: "Permanent African Presence",
+      description: "Unlike fly-in-fly-out funds, TriMesa maintains full-time operating partners embedded in Zambia, Kenya, and Tanzania. We are members of local business ecosystems with trusted relationships built over years, not quarters. This permanent presence is essential for executing in frontier African markets.",
     },
     {
       icon: Shield,
-      title: "Recession-Resistant Returns",
-      description: "Focus on essential services where demand persists regardless of economic cycles: cold storage, ice production, solar power, and infrastructure serving business travelers, NGOs, and government officials.",
+      title: "Africa Infrastructure Focus",
+      description: "We specialize in essential infrastructure and services across African emerging markets: cold chain logistics, renewable energy, water infrastructure, and hospitality. These sectors address critical market gaps and deliver resilient returns regardless of macroeconomic volatility.",
     },
     {
       icon: TrendingUp,
-      title: "Proprietary Deal Flow",
-      description: "Full-time on-the-ground presence in target markets. Not expatriates on rotation—embedded members of business ecosystems. Access to off-market companies at attractive valuations (4-7x EBITDA) versus inflated competitive multiples (10-15x+).",
+      title: "Proprietary African Deal Flow",
+      description: "Our on-the-ground teams source off-market opportunities unavailable to international funds. We access African businesses at attractive entry valuations (4-7x EBITDA) while global funds compete at inflated multiples (10-15x+). This sourcing advantage is structural, not cyclical.",
     },
   ];
 
@@ -36,12 +36,11 @@ export default function Home() {
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Resilience through Structure
-              <span className="block text-[rgb(var(--gold))]">Yield through Intelligence</span>
-              <span className="block">Impact through Discipline</span>
+              Africa-Focused
+              <span className="block text-[rgb(var(--gold))]">Emerging Markets Expertise</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-              Private Emerging Special Opportunities I (PESO) targets capital appreciation and income through equity investments in sustainable African businesses addressing missing markets.
+              TriMesa Capital Partners is a specialized financial services firm delivering institutional-grade private equity solutions exclusively in African emerging markets. Our permanent on-the-ground presence in Zambia, Kenya, and Tanzania provides unmatched market access and proprietary deal flow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/peso-fund">
@@ -71,10 +70,10 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
-              What Sets PESO Apart
+              Our Africa Emerging Markets Advantage
             </h2>
             <p className="text-lg text-[rgb(var(--slate))] max-w-3xl mx-auto">
-              A truly differentiated strategy offering access to opportunities that simply do not exist elsewhere in emerging markets private equity.
+              As a dedicated African emerging markets financial services firm, we provide access to opportunities that global generalist funds cannot reach. Our full-time presence and deep local expertise create structural advantages.
             </p>
           </div>
 
@@ -147,10 +146,10 @@ export default function Home() {
       <section className="py-20 bg-[rgb(var(--navy))] text-white">
         <div className="container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            For Institutional and Accredited Investors
+            Specialized African Emerging Markets Expertise
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            PESO is a Cayman Islands Exempted Limited Partnership (ELP), CIMA-regulated, with holdings via Mauritius GBC1 structures.
+            TriMesa Capital Partners operates the PESO fund, a CIMA-regulated Cayman Islands ELP with Mauritius GBC1 holdings structures. We serve institutional and accredited investors seeking dedicated African emerging markets exposure.
           </p>
           <Link href="/contact">
             <Button

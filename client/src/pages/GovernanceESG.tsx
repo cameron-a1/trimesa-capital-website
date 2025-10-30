@@ -18,23 +18,23 @@ export default function GovernanceESG() {
   const esgFocusAreas = [
     {
       icon: Leaf,
-      title: "Energy Access",
-      description: "Investments in renewable energy and grid infrastructure to expand electricity access in underserved markets.",
+      title: "African Energy Access",
+      description: "TriMesa invests in renewable energy and grid infrastructure to expand electricity access across underserved African markets, addressing critical power deficits in Zambia, Kenya, and Tanzania.",
     },
     {
       icon: Users,
-      title: "Job Creation",
-      description: "Supporting scalable businesses that create sustainable employment opportunities in local communities.",
+      title: "African Job Creation",
+      description: "Our portfolio companies create sustainable employment opportunities in local African communities, building skilled workforces and supporting economic development in frontier markets.",
     },
     {
       icon: Shield,
-      title: "Governance Standards",
-      description: "Embedding institutional governance practices in portfolio companies through board representation and operational leadership.",
+      title: "Institutional Governance in Africa",
+      description: "TriMesa embeds institutional-grade governance practices in African portfolio companies through board representation, operational leadership, and disciplined financial management.",
     },
     {
       icon: Target,
-      title: "Climate Resilience",
-      description: "Focus on essential services and infrastructure that enhance climate adaptation and reduce environmental impact.",
+      title: "Africa Climate Resilience",
+      description: "We focus on essential African infrastructure and services that enhance climate adaptation and reduce environmental impact across East and Southern African markets.",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function GovernanceESG() {
             Governance & ESG
           </h1>
           <p className="text-xl text-gray-300">
-            Institutional-grade governance and impact by design
+            Bringing institutional-grade governance to African emerging markets
           </p>
         </div>
       </section>
