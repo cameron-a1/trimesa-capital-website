@@ -43,3 +43,4 @@
 ## Recent Changes
 - [x] Replace chart image with new TriMesa logo on homepage hero
 - [x] Update to use the final TriMesa logo (three pillars version)
+- [x] Remove logo background to make it blend with page backgrounds

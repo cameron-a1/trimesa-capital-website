@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center">
           <img
-            src="/brand/trimesa-logo-final.png"
+            src="/brand/trimesa-logo-transparent.png"
             alt="TriMesa Capital Partners"
             className="h-12 w-auto"
           />

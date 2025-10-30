@@ -30,7 +30,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <img
-                src="/brand/trimesa-logo-final.png"
+                src="/brand/trimesa-logo-transparent.png"
                 alt="TriMesa Capital Partners"
                 className="h-40 w-auto mx-auto"
               />

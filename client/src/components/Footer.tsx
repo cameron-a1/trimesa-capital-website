@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="flex items-center">
             <img
-              src="/brand/trimesa-logo-final.png"
+              src="/brand/trimesa-logo-transparent.png"
               alt="TriMesa Capital Partners"
               className="h-10 w-auto opacity-80"
             />
