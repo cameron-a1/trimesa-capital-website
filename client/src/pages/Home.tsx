@@ -36,8 +36,8 @@ export default function Home() {
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              African Infrastructure
-              <span className="block text-[rgb(var(--gold))]">Investment Platform</span>
+              Building Africa's
+              <span className="block text-[rgb(var(--gold))]">Essential Infrastructure</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
               TriMesa Capital Partners is a specialized investment firm focused on essential infrastructure development across Zambia, Kenya, and Tanzania.
