@@ -62,3 +62,8 @@
 ## Anonymization
 - [x] Remove all individual names from Governance & ESG page
 - [x] Make website fully anonymous with no personal identifiers
+
+## Content Simplification
+- [x] Remove specific project details from Projects page
+- [x] Remove key person commitment/suspension mechanics language
+- [x] Simplify governance descriptions

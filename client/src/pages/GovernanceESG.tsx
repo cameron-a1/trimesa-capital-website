@@ -6,12 +6,12 @@ export default function GovernanceESG() {
     {
       name: "Operating Partner - Kenya",
       title: "Senior Operating Partner",
-      description: "10 years in African private equity and emerging markets investing. Full-time on-the-ground presence in Kenya. Key Person designation with suspension mechanics per fund terms.",
+      description: "10 years in African private equity and emerging markets investing. Full-time on-the-ground presence in Kenya.",
     },
     {
       name: "Operating Partner - Zambia & Tanzania",
       title: "Senior Operating Partner",
-      description: "4 years in African private equity and 3 years in African entrepreneurship. Full-time on-the-ground presence in Zambia and Tanzania. Key Person designation with suspension mechanics per fund terms.",
+      description: "4 years in African private equity and 3 years in African entrepreneurship. Full-time on-the-ground presence in Zambia and Tanzania.",
     },
   ];
 
