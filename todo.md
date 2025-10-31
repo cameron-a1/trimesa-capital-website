@@ -58,3 +58,7 @@
 - [x] Transform PESO Fund page into Projects/Impact page
 - [x] Add visual project highlights with real examples
 - [x] Emphasize tangible outcomes and community benefits
+
+## Anonymization
+- [x] Remove all individual names from Governance & ESG page
+- [x] Make website fully anonymous with no personal identifiers

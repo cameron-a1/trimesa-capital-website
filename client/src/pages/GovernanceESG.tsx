@@ -4,13 +4,13 @@ import { Shield, Users, Leaf, Target } from "lucide-react";
 export default function GovernanceESG() {
   const keyPersons = [
     {
-      name: "Jens-Peter Dyrbak",
-      title: "Operating Partner",
+      name: "Operating Partner - Kenya",
+      title: "Senior Operating Partner",
       description: "10 years in African private equity and emerging markets investing. Full-time on-the-ground presence in Kenya. Key Person designation with suspension mechanics per fund terms.",
     },
     {
-      name: "Tazana Kamanga-Dyrbak",
-      title: "Operating Partner",
+      name: "Operating Partner - Zambia & Tanzania",
+      title: "Senior Operating Partner",
       description: "4 years in African private equity and 3 years in African entrepreneurship. Full-time on-the-ground presence in Zambia and Tanzania. Key Person designation with suspension mechanics per fund terms.",
     },
   ];
