@@ -67,3 +67,11 @@
 - [x] Remove specific project details from Projects page
 - [x] Remove key person commitment/suspension mechanics language
 - [x] Simplify governance descriptions
+
+## Major Content Removal
+- [x] Remove project pipeline section from Projects page
+- [x] Remove all legal structure information
+- [x] Remove entire governance section from Governance & ESG page
+- [x] Keep only ESG content on Governance & ESG page
+- [x] Minimize Projects page to bare minimum information
+- [x] Remove key persons section completely

@@ -7,7 +7,7 @@ import InvestorTypeSelector from "@/components/InvestorTypeSelector";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Projects", href: "/peso-fund" },
-  { name: "Governance & ESG", href: "/governance-esg" },
+  { name: "ESG", href: "/governance-esg" },
   { name: "Insights", href: "/insights" },
   { name: "Contact", href: "/contact" },
 ];
