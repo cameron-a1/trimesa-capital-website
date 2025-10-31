@@ -1,24 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { TrendingUp, Shield, Network } from "lucide-react";
+import { Zap, Snowflake, Building2 } from "lucide-react";
 
 export default function Home() {
-  const pillars = [
+  const sectors = [
     {
-      icon: Network,
-      title: "Renewable Energy Projects",
-      description: "Building solar farms and distributed energy systems across Zambia, Kenya, and Tanzania. Our projects bring reliable electricity to remote communities and businesses, replacing expensive diesel generators with clean, affordable power. We've helped electrify schools, health clinics, and small businesses in areas where the grid doesn't reach.",
+      icon: Zap,
+      title: "Renewable Energy",
+      description: "Solar power infrastructure and distributed energy systems delivering reliable electricity across East and Southern Africa.",
     },
     {
-      icon: Shield,
-      title: "Cold Chain & Food Security",
-      description: "Developing cold storage facilities and ice production plants that preserve food, reduce waste, and support local agriculture. Our cold chain infrastructure enables farmers to store produce longer, reach distant markets, and earn higher incomes. We're building the backbone of food security across East Africa.",
+      icon: Snowflake,
+      title: "Cold Chain & Logistics",
+      description: "Temperature-controlled storage and distribution networks supporting agricultural value chains and food security.",
     },
     {
-      icon: TrendingUp,
-      title: "Hospitality & Tourism",
-      description: "Creating luxury eco-lodges and sustainable tourism experiences that showcase Africa's natural beauty while creating local employment. Our hospitality projects train and employ local staff, source from local suppliers, and reinvest tourism revenue into community development. We're proving that conservation and prosperity go hand in hand.",
+      icon: Building2,
+      title: "Hospitality & Real Estate",
+      description: "Sustainable tourism infrastructure and commercial developments in high-growth African markets.",
     },
   ];
 
@@ -36,11 +36,11 @@ export default function Home() {
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Building Africa's
-              <span className="block text-[rgb(var(--gold))]">Essential Infrastructure</span>
+              African Infrastructure
+              <span className="block text-[rgb(var(--gold))]">Investment Platform</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-              From solar farms powering remote communities to cold chain logistics preserving food security, TriMesa Capital Partners develops transformative infrastructure projects across Zambia, Kenya, and Tanzania. We don't just invest—we build, operate, and create lasting impact.
+            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+              TriMesa Capital Partners is a specialized investment firm focused on essential infrastructure development across Zambia, Kenya, and Tanzania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/peso-fund">
@@ -48,7 +48,7 @@ export default function Home() {
                   size="lg"
                   className="bg-[rgb(var(--gold))] text-[rgb(var(--navy))] hover:bg-[rgb(var(--gold))]/90 text-lg px-8"
                 >
-                  View Our Projects
+                  Our Approach
                 </Button>
               </Link>
               <Link href="/contact">
@@ -57,7 +57,7 @@ export default function Home() {
                   variant="outline"
                   className="border-2 border-white text-white hover:bg-white hover:text-[rgb(var(--navy))] text-lg px-8"
                 >
-                  Partner With Us
+                  Contact Us
                 </Button>
               </Link>
             </div>
@@ -65,34 +65,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Three Pillars Section */}
-      <section className="py-20 bg-white">
+      {/* Sectors Section */}
+      <section className="py-24 bg-white">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
-              Transformative Projects Across Africa
+              Investment Focus
             </h2>
             <p className="text-lg text-[rgb(var(--slate))] max-w-3xl mx-auto">
-              We develop and operate essential infrastructure that powers economic growth, creates jobs, and improves quality of life across East and Southern Africa. Every project addresses a critical market gap.
+              We concentrate on sectors that address critical infrastructure gaps and deliver sustainable returns in African emerging markets.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {pillars.map((pillar, index) => {
-              const Icon = pillar.icon;
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {sectors.map((sector, index) => {
+              const Icon = sector.icon;
               return (
                 <Card key={index} className="border-2 hover:border-[rgb(var(--gold))] transition-colors">
-                  <CardContent className="pt-6">
-                    <div className="mb-4">
-                      <div className="w-12 h-12 rounded-lg bg-[rgb(var(--gold))]/10 flex items-center justify-center">
-                        <Icon className="w-6 h-6 text-[rgb(var(--gold))]" />
+                  <CardContent className="pt-8 pb-8">
+                    <div className="mb-6">
+                      <div className="w-14 h-14 rounded-lg bg-[rgb(var(--gold))]/10 flex items-center justify-center">
+                        <Icon className="w-7 h-7 text-[rgb(var(--gold))]" />
                       </div>
                     </div>
                     <h3 className="text-xl font-bold text-[rgb(var(--navy))] mb-3">
-                      {pillar.title}
+                      {sector.title}
                     </h3>
                     <p className="text-[rgb(var(--slate))] leading-relaxed">
-                      {pillar.description}
+                      {sector.description}
                     </p>
                   </CardContent>
                 </Card>
@@ -102,48 +102,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Impact Stats Section */}
-      <section className="py-16 bg-[rgb(var(--off-white))]">
+      {/* Geographic Focus Section */}
+      <section className="py-24 bg-[rgb(var(--off-white))]">
         <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
-              Creating Measurable Impact
-            </h2>
-            <p className="text-lg text-[rgb(var(--slate))] max-w-2xl mx-auto">
-              Our projects deliver tangible results for African communities
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                500+
-              </div>
-              <div className="text-sm text-[rgb(var(--slate))]">
-                Jobs Created
-              </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-[rgb(var(--navy))] mb-4">
+                East & Southern Africa
+              </h2>
+              <p className="text-lg text-[rgb(var(--slate))] max-w-3xl mx-auto">
+                Our investment platform maintains permanent operational presence across three core markets.
+              </p>
             </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                12
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="bg-white rounded-lg p-6 border-2">
+                <div className="text-2xl font-bold text-[rgb(var(--navy))] mb-2">Zambia</div>
+                <div className="text-sm text-[rgb(var(--slate))]">Southern Africa</div>
               </div>
-              <div className="text-sm text-[rgb(var(--slate))]">
-                Active Projects
+              <div className="bg-white rounded-lg p-6 border-2">
+                <div className="text-2xl font-bold text-[rgb(var(--navy))] mb-2">Kenya</div>
+                <div className="text-sm text-[rgb(var(--slate))]">East Africa</div>
               </div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                3
-              </div>
-              <div className="text-sm text-[rgb(var(--slate))]">
-                African Countries
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[rgb(var(--gold))] mb-2 font-data">
-                50K+
-              </div>
-              <div className="text-sm text-[rgb(var(--slate))]">
-                Lives Impacted
+              <div className="bg-white rounded-lg p-6 border-2">
+                <div className="text-2xl font-bold text-[rgb(var(--navy))] mb-2">Tanzania</div>
+                <div className="text-sm text-[rgb(var(--slate))]">East Africa</div>
               </div>
             </div>
           </div>
@@ -151,20 +133,20 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-[rgb(var(--navy))] text-white">
+      <section className="py-24 bg-[rgb(var(--navy))] text-white">
         <div className="container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Partner in Africa's Growth Story
+            For Institutional Investors
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            TriMesa Capital Partners develops transformative infrastructure projects across Zambia, Kenya, and Tanzania. We work with institutional and accredited investors who share our vision for sustainable African development.
+            TriMesa Capital Partners serves institutional and accredited investors seeking exposure to African infrastructure opportunities.
           </p>
           <Link href="/contact">
             <Button
               size="lg"
               className="bg-[rgb(var(--gold))] text-[rgb(var(--navy))] hover:bg-[rgb(var(--gold))]/90 text-lg px-8"
             >
-              Request LP Materials
+              Request Information
             </Button>
           </Link>
         </div>

@@ -56,7 +56,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-300">
-            Africa Emerging Markets Expertise — Institutional & Accredited Investors
+            For institutional and accredited investors
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function Contact() {
                 Investor Inquiry
               </h2>
               <p className="text-[rgb(var(--slate))] mb-8">
-                TriMesa Capital Partners serves institutional and accredited investors seeking dedicated African emerging markets exposure. Our team will respond to qualified inquiries within 2 business days.
+                TriMesa Capital Partners serves institutional and accredited investors. Our team will respond to qualified inquiries within 2 business days.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">

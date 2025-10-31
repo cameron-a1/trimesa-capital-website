@@ -64,7 +64,7 @@ export default function Insights() {
             Insights
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Perspectives on emerging markets private equity, frontier market investing, and the structural opportunities in underserved African economies.
+            Market perspectives on African infrastructure investment
           </p>
         </div>
       </section>

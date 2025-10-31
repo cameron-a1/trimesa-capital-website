@@ -75,3 +75,10 @@
 - [x] Keep only ESG content on Governance & ESG page
 - [x] Minimize Projects page to bare minimum information
 - [x] Remove key persons section completely
+
+## Final Polish for Publishing
+- [x] Remove "Creating Measurable Impact" section from homepage
+- [x] Polish homepage to Apollo-style institutional design
+- [x] Refine all copy to be more institutional and professional
+- [x] Ensure consistent professional tone throughout
+- [x] Final review and polish for publishing
