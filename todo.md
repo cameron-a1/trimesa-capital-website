@@ -110,4 +110,4 @@
 ## Metadata Update
 - [x] Replace %VITE_APP_TITLE% with proper title
 - [x] Update meta description
-- [ ] Push changes to GitHub
+- [x] Push changes to GitHub
