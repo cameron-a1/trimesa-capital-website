@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Zap, Snowflake, Home } from "lucide-react";
+import { Link } from "wouter";
 
 export default function PesoFund() {
   return (
@@ -84,13 +85,14 @@ export default function PesoFund() {
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
             TriMesa Capital Partners works with institutional and accredited investors who share our vision for sustainable African infrastructure development.
           </p>
-          <Button
-            size="lg"
-            className="bg-[rgb(var(--gold))] text-[rgb(var(--navy))] hover:bg-[rgb(var(--gold))]/90 text-lg px-8"
-            onClick={() => window.location.href = '/contact'}
-          >
-            Get in Touch
-          </Button>
+          <Link href="/contact">
+            <Button
+              size="lg"
+              className="bg-[rgb(var(--gold))] text-[rgb(var(--navy))] hover:bg-[rgb(var(--gold))]/90 text-lg px-8"
+            >
+              Get in Touch
+            </Button>
+          </Link>
         </div>
       </section>
     </div>

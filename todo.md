@@ -111,3 +111,6 @@
 - [x] Replace %VITE_APP_TITLE% with proper title
 - [x] Update meta description
 - [x] Push changes to GitHub
+
+## Fix Projects Page Contact Button
+- [x] Update "Get in Touch" button href to match working contact links
