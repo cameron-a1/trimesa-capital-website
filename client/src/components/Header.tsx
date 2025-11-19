@@ -23,7 +23,7 @@ export default function Header() {
           <img
             src="/brand/trimesa-logo-transparent.png"
             alt="TriMesa Capital Partners"
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </Link>
 

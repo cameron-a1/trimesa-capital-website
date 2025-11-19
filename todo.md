@@ -9,7 +9,7 @@
 - [x] Install dependencies
 - [x] Verify build works correctly
 - [x] Test website functionality in browser
-- [ ] Create checkpoint for deployment
+- [x] Create checkpoint for deployment
 
 ## Existing Features (from original repository)
 - [x] Set up color scheme (Navy #0C1E2C, Gold #C9A646, Slate #4E5D6C, Off-white #F9FAFB)
@@ -36,3 +36,17 @@
 - [ ] Test contact form functionality
 - [ ] Verify cookie banner works
 - [x] Check all navigation links
+
+## New Updates Required
+- [x] Create investor-type entry screen (appears on first visit only)
+- [x] Add localStorage/cookie check to skip entry screen for returning users
+- [x] Fix Projects page "Get in Touch" button routing to /contact (already correct)
+- [x] Increase all logo sizes by 30-40% globally (navbar, footer, hero, mobile)
+- [x] Adjust spacing and alignment for larger logos
+- [x] Remove all placeholder, irrelevant, outdated, or incorrect text (content reviewed - all appropriate)
+- [x] Conduct full content sweep for institutional tone (content is professional and institutional)
+- [x] Update SEO meta description to official text
+- [x] Update site title to "TriMesa Capital Partners" everywhere
+- [x] Update OpenGraph metadata
+- [ ] Commit all changes to GitHub
+- [ ] Verify Vercel deployment builds successfully

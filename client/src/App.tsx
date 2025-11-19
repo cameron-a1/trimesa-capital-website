@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -7,6 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CookieBanner from "./components/CookieBanner";
+import InvestorTypeEntry from "./components/InvestorTypeEntry";
 import Home from "./pages/Home";
 import PesoFund from "./pages/PesoFund";
 import GovernanceESG from "./pages/GovernanceESG";
@@ -41,18 +43,23 @@ function Router() {
 }
 
 function App() {
+  const [showMainSite, setShowMainSite] = useState(false);
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
-          <div className="min-h-screen flex flex-col">
-            <Header />
-            <main className="flex-1">
-              <Router />
-            </main>
-            <Footer />
-            <CookieBanner />
-          </div>
+          <InvestorTypeEntry onSelect={() => setShowMainSite(true)} />
+          {showMainSite && (
+            <div className="min-h-screen flex flex-col">
+              <Header />
+              <main className="flex-1">
+                <Router />
+              </main>
+              <Footer />
+              <CookieBanner />
+            </div>
+          )}
           <Toaster />
         </TooltipProvider>
       </ThemeProvider>
