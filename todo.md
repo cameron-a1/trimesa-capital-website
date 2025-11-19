@@ -49,4 +49,8 @@
 - [x] Update site title to "TriMesa Capital Partners" everywhere
 - [x] Update OpenGraph metadata
 - [x] Commit all changes to GitHub (checkpoint saved)
-- [ ] Verify Vercel deployment builds successfully (pending GitHub push)
+- [x] Verify Vercel deployment builds successfully (deployment READY)
+
+## Additional Logo Updates
+- [x] Increase logo sizes further (additional 20-30% increase)
+- [x] Add TriMesa logo to investor-type entry screen

@@ -37,9 +37,9 @@ export default function InvestorTypeEntry({ onSelect }: InvestorTypeEntryProps) 
         <div className="flex flex-col items-center text-center space-y-8">
           {/* Logo */}
           <img
-            src={APP_LOGO}
+            src="/brand/trimesa-logo-transparent.png"
             alt="TriMesa Capital Partners"
-            className="h-24 w-auto"
+            className="h-32 w-auto"
           />
 
           {/* Heading */}
