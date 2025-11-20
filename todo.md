@@ -100,4 +100,15 @@
 - [x] Test responsive design at 375px, 414px, 768px, 1024px, 1440px (verified responsive)
 - [x] Verify no layout breaks or overlaps (all layouts working correctly)
 - [x] Create checkpoint (ee0219c3)
+- [x] Push to GitHub for Vercel deployment (pushed commit 1748499)
+
+## Dramatic Logo Size Increase
+- [x] Increase navbar logo to 90-120px desktop, 65-80px mobile (h-20 md:h-28 = 80px/112px)
+- [x] Increase hero logo 2-3x larger than current (h-64 to h-[56rem] = 256px to 896px)
+- [x] Increase footer logo proportionally (h-24 md:h-36 = 96px/144px)
+- [x] Increase entry screen logo proportionally (h-48 md:h-64 = 192px/256px)
+- [x] Adjust padding, margins, and alignment for much larger logos
+- [x] Test responsive design at 320px, 375px, 414px, 768px, 1024px, 1440px (verified)
+- [x] Verify no layout breaks (all layouts working correctly)
+- [ ] Create checkpoint
 - [ ] Push to GitHub for Vercel deployment

@@ -37,7 +37,7 @@ export default function Home() {
               <img
                 src="/brand/trimesa-logo-transparent.png"
                 alt="TriMesa Capital Partners"
-                className="h-28 sm:h-40 md:h-64 lg:h-96 w-auto max-w-full mx-auto object-contain"
+                className="h-64 sm:h-80 md:h-96 lg:h-[48rem] xl:h-[56rem] w-auto max-w-full mx-auto object-contain"
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">

@@ -7,7 +7,7 @@ export default function Footer() {
             <img
               src="/brand/trimesa-logo-transparent.png"
               alt="TriMesa Capital Partners"
-              className="h-16 md:h-24 w-auto max-w-full object-contain opacity-80"
+              className="h-24 md:h-36 w-auto max-w-full object-contain opacity-80"
             />
           </div>
           
