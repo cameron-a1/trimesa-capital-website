@@ -223,7 +223,7 @@ export default function Contact() {
                 </Button>
 
                 <p className="text-xs text-[rgb(var(--slate))] mt-4">
-                  By submitting this form, you confirm that you are an institutional or accredited investor and acknowledge that securities are offered only through confidential private placement memorandum.
+                  By submitting this form, you confirm that you are an institutional or accredited investor.
                 </p>
               </form>
             </div>
@@ -298,7 +298,7 @@ export default function Contact() {
                   Important Notice
                 </h3>
                 <p className="text-sm text-[rgb(var(--slate))]">
-                  This is not an offer to sell securities. Securities are offered only through confidential private placement memorandum to institutional and accredited investors who meet the eligibility criteria set forth in the fund's governing documents.
+                  This website does not constitute an offer to sell securities. TriMesa Capital Partners serves institutional and accredited investors who meet specific eligibility criteria.
                 </p>
               </div>
             </div>

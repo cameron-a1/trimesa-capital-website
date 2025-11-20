@@ -7,16 +7,13 @@ export default function Footer() {
             <img
               src="/brand/trimesa-logo-transparent.png"
               alt="TriMesa Capital Partners"
-              className="h-12 md:h-18 w-auto max-w-full object-contain opacity-80"
+              className="h-16 md:h-24 w-auto max-w-full object-contain opacity-80"
             />
           </div>
           
           <div className="text-sm text-[rgb(var(--off-white))] opacity-80 max-w-2xl">
-            <p className="font-medium mb-2">
-              CONFIDENTIAL DOCUMENT. Not an offer to sell securities.
-            </p>
             <p className="text-xs">
-              Service providers and terms per governing documents. Securities are offered only through confidential private placement memorandum.
+              TriMesa Capital Partners serves institutional and accredited investors. This website does not constitute an offer to sell securities.
             </p>
           </div>
         </div>

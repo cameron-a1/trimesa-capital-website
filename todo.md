@@ -85,4 +85,19 @@
 - [x] Verify all contact details are consistent across the site (email and DIFC address updated)
 - [x] Test on mobile and desktop (responsive design verified)
 - [x] Create checkpoint (df10fa68)
+- [x] Push to GitHub for Vercel deployment (pushed commit 65bd2da)
+
+## Logo Size Increase and Content Cleanup
+- [x] Increase navbar logo to 55-75px on desktop, 40-55px on mobile (h-12 md:h-18 = 48px/72px)
+- [x] Increase hero logo significantly (h-28 to h-96 = 112px to 384px)
+- [x] Increase footer logo proportionally (h-16 md:h-24 = 64px/96px)
+- [x] Check all other logo instances and increase sizes (entry screen h-32 sm:h-40)
+- [x] Adjust padding and spacing for larger logos (maintained with object-contain)
+- [x] Remove all "confidential document" language from entire site
+- [x] Remove "confidential information" references
+- [x] Remove "for internal use only" text (none found)
+- [x] Replace with neutral institutional language where needed
+- [x] Test responsive design at 375px, 414px, 768px, 1024px, 1440px (verified responsive)
+- [x] Verify no layout breaks or overlaps (all layouts working correctly)
+- [ ] Create checkpoint
 - [ ] Push to GitHub for Vercel deployment
